@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ariketak;
+package adibideak;
 
 import java.util.Scanner;
 

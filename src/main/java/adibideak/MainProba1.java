@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ariketak;
+package adibideak;
 
 /**
  * @author Eñaut Agirre

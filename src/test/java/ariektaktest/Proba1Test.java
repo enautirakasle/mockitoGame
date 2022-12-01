@@ -17,7 +17,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import ariketak.Proba1;
+import adibideak.Proba1;
 
 /**
  * @author Eñaut Agirre
