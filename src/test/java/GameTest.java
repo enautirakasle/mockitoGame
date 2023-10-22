@@ -14,8 +14,9 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
+import org.mockito.junit.MockitoJUnitRunner;
+
 import static org.mockito.Mockito.when;
-import org.mockito.runners.MockitoJUnitRunner;
 
 @RunWith(MockitoJUnitRunner.class)
 public class GameTest {
@@ -32,6 +33,12 @@ public class GameTest {
 
 	@Mock
 	Random random;
+	
+//	@Test
+//	public void gameTest() {
+//		when(scanner.nextLine()).thenReturn("Quit");
+//		game.play();
+//	}
 
 	@Test
 	public void when_IwriteQuit_then_exitGame() {
