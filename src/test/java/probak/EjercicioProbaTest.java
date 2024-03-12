@@ -1,4 +1,4 @@
-package secuencia;
+package probak;
 
 /*
  * https://www.youtube.com/watch?v=2S6Mq-ylg3k
@@ -17,28 +17,31 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 
+import probak.EjercicioProba;
+
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
-public class Ejercicio01Test {
+public class EjercicioProbaTest {
 
 
 	@InjectMocks
-	private Ejercicio01 ejercicio01;
+	private EjercicioProba ejercicioProba;
 
 	@Mock
 	Scanner scanner;
 
+
 	@Test
-	public void ok_ona_idaztean() {
-		when(scanner.nextLine()).thenReturn("ona");
+	public void batuketaTest() {
+		when(scanner.nextLine()).thenReturn("2", "7");
 
 		ByteArrayOutputStream out = new ByteArrayOutputStream();
 		System.setOut(new PrintStream(out));
 
-		ejercicio01.run();
+		ejercicioProba.run();
 
-		Assert.assertTrue(out.toString().contains("Hola Mundo!"));
+		Assert.assertTrue(out.toString().contains("9"));
 //		Assert.assertFalse(out.toString().contains("Hola Mundo!"));
 	}
 

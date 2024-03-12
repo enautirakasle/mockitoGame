@@ -1,12 +1,16 @@
-package secuencia;
+package probak;
 
 import java.util.Scanner;
 
-public class EjercicioProba {
+public class EjercicioProba2 {
 
-	Scanner sc1 = new Scanner(System.in);
+	static Scanner sc1 = new Scanner(System.in);
 	
-	public void run() {
+	public static void main(String[] args) {
+		run();
+	}
+	
+	public static void run() {
 		System.out.println("bi zenbaki");
 		int n1 = Integer.parseInt(sc1.nextLine());
 		System.out.println("bi zenbaki");

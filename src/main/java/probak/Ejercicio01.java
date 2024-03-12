@@ -1,4 +1,4 @@
-package secuencia;
+package probak;
 /*
   Saludo Simple: 
   Escribe un programa que imprima "¡Hola, mundo!" en la pantalla.

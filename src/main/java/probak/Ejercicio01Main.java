@@ -1,4 +1,4 @@
-package secuencia;
+package probak;
 
 public class Ejercicio01Main {
 
